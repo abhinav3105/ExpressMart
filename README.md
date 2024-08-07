@@ -22,6 +22,7 @@ Node.js and npm installed on your machine.
 MongoDB instance running locally or a cloud-based MongoDB service.
 
 # Installation
+<pre>
 Clone the Repository:
 git clone https://github.com/abhinav3105/ExpressMart.git
 Install Dependencies:
@@ -33,5 +34,6 @@ makefile
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+  </pre>
 # Start the Server:
 npm start
